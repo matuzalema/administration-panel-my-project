@@ -1,12 +1,12 @@
 .c--links {
 	border-top: 1px solid $border-color;
 	height: 65px;
-	:hover {
-	background-color: $link-bg-color-active;
+	&:hover {
+		background-color: $link-bg-color-active;
 	}
 }
 
-.c--links:hover 
+.c--links
 
 .link-description {
 	font-size: $third-font-size;
@@ -51,5 +51,9 @@
  
  	.link-description {
  		height: 10px;
+ 		text-align: center;
+ 	}
+ 	.link-item {
+ 		text-align: center;
  	}
  }
