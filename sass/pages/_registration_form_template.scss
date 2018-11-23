@@ -1,0 +1,30 @@
+body {
+	//background-color: $body-bg-color;
+}
+
+.content {
+	max-width: 1269px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: $body-bg-color;
+	padding-top: 10px;
+}
+
+.l--sidebar {
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	background-color: $bg-color;
+}
+
+//  ========= media ===========
+
+@media(max-width: 767px) {
+	.l--sidebar {
+		height: calc(100vh - 40px);
+	}
+	.main {
+		margin-top: 0;
+	}
+}
+

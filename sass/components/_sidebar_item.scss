@@ -1,0 +1,36 @@
+.c--sidebar-item {
+	background-color: $bg-color;
+	max-width: 188px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: $second-color;
+}
+
+.sidebar-item-icon {
+	width: 15px;
+	height: 14px;
+	font-family: glyphter !important;
+	position: relative;
+	font-weight: 200;
+	bottom: 4px;
+	padding-left: 13px;
+	cursor: pointer;
+}
+
+.sidebar-item-description {
+	font-size: $fourth-font-size;
+	font-weight: 300;
+	margin-left: 36px;
+	cursor: pointer;
+}
+
+.sidebar-item-is-active {
+	color: $font-color-fourth;
+}
+
+//  ========= media ===========
+
+@media(max-width: 767px) {
+	
+}

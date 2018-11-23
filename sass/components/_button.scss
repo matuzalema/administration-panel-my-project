@@ -1,0 +1,15 @@
+.c--button {
+	height: 40px;
+	background-color: $first-color;
+	border-radius: 3px;
+	font-size: $second-font-size;
+	color: $second-color;
+	border: none;
+	padding: 12px;
+	outline: none;
+	cursor: pointer;
+}
+
+.c--button .icon-refresh {
+	width: 40px;
+}

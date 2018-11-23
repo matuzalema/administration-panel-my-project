@@ -1,0 +1,45 @@
+
+// section general statistic
+
+.main {
+	background-color: $second-color;
+	border: 1px solid $second-border-color;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 66px 12px 0 194px;
+}
+
+.container {
+	max-width: 70%;
+	padding-bottom: 20px;
+}
+
+.l-statistic-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 33px;
+}
+
+.l-current-values-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.l-current-values-col {
+	margin: 40px;
+}
+
+.c--button.icon-general {
+	font-family: glyphter !important;
+}
+
+.c--button {
+	margin-left: 20px;
+	padding: 0 20px;
+}
+
+.header-earnings-chart {
+	color: #a6a6a6;
+	font-weight: 700;
+	font-size: $third-font-size;
+}
+

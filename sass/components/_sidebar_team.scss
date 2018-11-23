@@ -1,0 +1,41 @@
+.c--sidebar-team {
+	background-color: $bg-color;
+	max-width: 188px;
+	color: $second-color;
+	padding: 20px 0;
+}
+
+.l-sidebar-team {
+	display: flex;
+	align-items: center;
+}
+
+.sidebar-team-head {
+	text-transform: uppercase;
+	font-size: $fourth-font-size;
+	font-weight: 500;
+	letter-spacing: -0.28px;
+	color: $font-color-fiveth;
+	padding: 19px 0 20px 0;
+}
+
+.siedebar-team-photo {
+	display: inline-block;
+	padding: 5px 10px 5px 20px;
+}
+
+.sidebar-team-name {
+	color: $link-color;
+	cursor: pointer;
+	font-weight: 300;
+}
+
+.sidebar-team-round {
+	width: 12px;
+	height: 11px;
+	background-color: $third-color;
+	border-radius: 50%;
+	position: relative;
+	bottom: 15px;
+    right: 85px;
+}
