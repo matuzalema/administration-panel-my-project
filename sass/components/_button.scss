@@ -11,6 +11,13 @@
 	padding: 0 20px;
 }
 
+.c-button-save {
+	width: 127px;
+	display: flex;
+	margin: 23px auto;
+	justify-content: center;
+	}
+
 .c--button .icon-refresh {
 	width: 40px;
 }
@@ -26,6 +33,8 @@
 }
 
 .add {
+	justify-content: center;
 	display: flex;
 	margin: 23px auto;
+	width: 127px;
 }

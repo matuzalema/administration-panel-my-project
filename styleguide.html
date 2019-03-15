@@ -10,7 +10,7 @@
 	<div class="content">
 	<!-- section top-navigation -->
 		<nav class="s--navigation">
-			<div class="s--navigation c--top-nav">
+			<div class=" c--top-nav"> <!-- s--navigation -->
 				<div class="c--top-nav-part">
 					<img class="profile-icon" src="images/icons/quit.svg" alt="notification">
 				</div>
@@ -40,42 +40,44 @@
 			</div>
 
 			<!-- sidebar-item -->
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-general"></h2>
-				<h2 class="sidebar-item-description">General</h2>	
-			</div>
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-details"></h2>
-				<h2 class="sidebar-item-description">Details</h2>	
-			</div>
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-links"></h2>
-				<h2 class="sidebar-item-description">Links</h2>	
-			</div>
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-banners"></h2>
-				<h2 class="sidebar-item-description">Banners</h2>	
-			</div>
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-personaldata"></h2>
-				<h2 class="sidebar-item-description">Personal data</h2>	
-			</div>
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-payout"></h2>
-				<h2 class="sidebar-item-description">Payout</h2>	
-			</div>
-			<div class="c--sidebar-item">
-				<h2 class="sidebar-item-icon icon-postback"></h2>
-				<h2 class="sidebar-item-description">Postback</h2>	
-			</div>
+			<div class="l--sidebar-group">
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-general"></h2>
+					<h2 class="sidebar-item-description">General</h2>	
+				</div>
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-details"></h2>
+					<h2 class="sidebar-item-description">Details</h2>	
+				</div>
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-links"></h2>
+					<h2 class="sidebar-item-description">Links</h2>	
+				</div>
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-banners"></h2>
+					<h2 class="sidebar-item-description">Banners</h2>	
+				</div>
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-personaldata"></h2>
+					<h2 class="sidebar-item-description">Personal data</h2>	
+				</div>
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-payout"></h2>
+					<h2 class="sidebar-item-description">Payout</h2>	
+				</div>
+				<div class="c--sidebar-item">
+					<h2 class="sidebar-item-icon icon-postback"></h2>
+					<h2 class="sidebar-item-description">Postback</h2>	
+				</div>
 
-			<!-- sidear team -->
-			<div class="c--sidebar-team">
-				<h2 class="sidebar-team-head">Your manager</h2>
-				<div class="l-sidebar-team">
-					<img class="siedebar-team-photo" src="images/photo-team.psb.png">
-					<h3 class="sidebar-team-name">Mikhael E.</h3>
-					<div class="sidebar-team-round"></div>
+				<!-- sidear team -->
+				<div class="c--sidebar-team">
+					<h2 class="sidebar-team-head">Your manager</h2>
+					<div class="l-sidebar-team">
+						<img class="siedebar-team-photo" src="images/photo-team.psb.png">
+						<h3 class="sidebar-team-name">Mikhael E.</h3>
+						<div class="sidebar-team-round"></div>
+					</div>
 				</div>
 			</div>	
 		</aside>
@@ -95,34 +97,32 @@
 				<div class="date date2">16.05.2016</div>
 				<img class="calendar-icon" src="images/icons/calendar.svg" alt="calendar">
 			</div>
-			<div class="button-wrapper">
-				<button class="c--button icon-refresh"></button>
-			</div>
+			<button class="c--button icon-refresh"></button>
 		</div>
 		<div class="container">
 
 			<!-- current values -->
 			<div class="l-current-values-wrapper">
 				<div class="row">
-					<div class="col-m-6 col-s-12">	
+					<div class="col-md-6 col-sm-12">	
 						<div class="c--current-values">
 							<h2 class="values-name">Visit Signups</h2>
 							<h2 class="values-data">124</h2>
 						</div>
 					</div>
-					<div class="col-m-6 col-s-12">
+					<div class="col-md-6 col-sm-12">
 						<div class="c--current-values">
 							<h2 class="values-name">Net deposit</h2>
 							<h2 class="values-data">564</h2>
 						</div>
 					</div>
-					<div class="col-m-6 col-s-12">	
+					<div class="col-md-6 col-sm-12">	
 						<div class="c--current-values">
 							<h2 class="values-name">FTD</h2>
 							<h2 class="values-data">445</h2>
 						</div>
 					</div>
-					<div class="col-m-6 col-s-12">
+					<div class="col-md-6 col-sm-12">
 						<div class="c--current-values">
 							<h2 class="values-name">Turn over</h2>
 							<h2 class="values-data">432</h2>
@@ -130,22 +130,24 @@
 					</div>
 				</div>
 			</div>
-			<h1 class="header-earnings-chart">Earnings chart</h1>
+
+			
 			
 			<!-- graph -->
 			<div class="c--graph">
+				<h1 class="header-earnings-chart">Earnings chart</h1>
 				<img class="graph" src="images/graph.png">
 			</div>
 		</div>
 	</section>
 
-<!-- section links -->
 
-	<section class="s--links main">
+<!-- ================ links ================== -->
+<section class="s--banners main">
 		
 		<!-- header -->
 		<header class="header">
-			<h3>Links</h3>
+			<h3>Banners</h3>
 		</header>
 		
 		
@@ -154,120 +156,168 @@
 			<button class="c--button add"> + add new</button>
 			<!-- links -->
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Home page</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Home page</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.homepage.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.homepage.com</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Currently offer</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Currently offer</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.currently.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.currently.com</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Blurpix</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Blurpix</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.blurpix.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.blurpix.com</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Your Site</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Your Site</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.yoursite.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.yoursite.com</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Google</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Google</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.google.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.google.com</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Facebook</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Facebook banner</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.facebook.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.facebook.com</h2>
 					</div>
-				</div>
+			</div>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Dashboard
+					</div>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.dashboard.com</h2>
+					</div>
+			</div>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Blurax</h2>
+					</div>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.blurax.com</h2>
+					</div>
+			</div>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Piece of Wine</h2>
+					</div>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.pieceofwine.com</h2>
+					</div>
+			</div>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Twitter</h2>
+					</div>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.twitter.com</h2>
+					</div>
+			</div>
+			<button class="c--button add"> + add new</button>
+		</div>	
+	</section>
+
+<!-- ================ banners ================== -->
+
+	<section class="s--banners main">
+		
+		<!-- header -->
+		<header class="header">
+			<h3>Banners</h3>
+		</header>
+		
+		
+		<div class="container">
+			
+			<button class="c--button add"> + add new</button>
+			<!-- links -->
+
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Banner main</h2>
+					</div>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.webside.com/bannermain.gif</h2>
+					</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Dashboard</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Sign up banner</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.dashboard.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.webside.com/signup.gif</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Blurax</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Banner left side</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.blurax.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.webside.com/leftside.gif</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Piece of Wine</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Vertical banner</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.pieceofwine.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.website/vert.gif.com</h2>
 					</div>
-				</div>
 			</div>
 
-			<div class="row">
-				<div class="c--links">
-					<div class="col-m-5 col-s-12">
-							<h2 class="link-description">Twitter</h2>
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Fronf banner</h2>
 					</div>
-					<div class="col col-m-7 col-s-12">
-							<h2 class="link-item">http://www.twitter.com</h2>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.website.com/grond.gif</h2>
 					</div>
-				</div>
 			</div>
-		</div>
-				
+
+			<div class="row links-wrapper">
+					<div class="col-md-5 col-sm-12">
+						<h2 class="link-description">Horizontal banner</h2>
+					</div>
+					<div class="col col-md-7 col-sm-12">
+						<h2 class="link-item">http://www.website.com/horizontal.gif</h2>
+					</div>
+			</div>
+		</div>		
 		<button class="c--button add bottom"> + add new</button>
 	</section>
 
-	</div>
+		
+		
 </body>
 </html>

@@ -2,16 +2,6 @@
 	position: fixed;
 	top: 0;
 	margin-right: 194px;
-	max-width: 1269px;
+	max-width: 1200px;
 	width: 100%;
-}
-
-//  ========== media ============
-
-@media(max-width: 767px) {
-	.s--navigation {
-	top: auto;
-	bottom: 0;
-	width: 184px;
-	}
 }

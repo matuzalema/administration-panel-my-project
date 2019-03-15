@@ -1,9 +1,31 @@
-@media(max-width: 767px) {
-	.main {
-		margin: 16px 12px 0 194px;
+@media(max-width: 768px) {
+
+	.l--sidebar-group {
+		display: none;
+	}
+
+	.link-description {
+ 		height: 10px;
+ 		text-align: center;
+ 		margin-bottom: 15px;
+ 	}
+ 	.link-item {
+ 		text-align: center;
+ 		margin-bottom: 5px;
+ 	}
+ 	.main {
+		margin: 0;
+	}
+
+	.c--top-nav {
+		display: none;
 	}
 }
 
+
+
+//  ========= links ===========
+ 
 
 // @media(min-width: 768px) and (max-width: 991px) 
 

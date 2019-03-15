@@ -1,2 +1,11 @@
+.l--sidebar-group { 
+	height: 100vh;
+	background-color: $bg-color;
+ }
 
-//  ========== media ============
+ .l--sidebar {
+	position: fixed;
+	top: 0;
+}
+
+

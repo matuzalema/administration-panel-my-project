@@ -1,12 +1,3 @@
-.c--links {
-	border-top: 1px solid $border-color;
-	height: 65px;
-	&:hover {
-		background-color: $link-bg-color-active;
-	}
-}
-
-.c--links
 
 .link-description {
 	font-size: $third-font-size;
@@ -23,14 +14,6 @@
 	cursor: pointer;
 }
 
-
-// link item onclick
-
- .c--links-is-active {
-	background-color: $link-bg-color-active;
-
-}
-
 .link-icon {
 	width: 16px;
 	height: 8px;
@@ -45,15 +28,19 @@
 	cursor: pointer;
 }
 
-//  ======= media  ============
 
- @media(max-width: 767px) {
- 
- 	.link-description {
- 		height: 10px;
- 		text-align: center;
- 	}
- 	.link-item {
- 		text-align: center;
- 	}
- }
+.links-wrapper {
+	max-width: 70%;
+	margin: 0 auto;
+	min-height: 56px;
+	align-items: center;
+	border-top: 1px solid $border-color;
+	&:hover {
+		background-color: $link-bg-color-active;
+	}
+}
+
+
+
+
+

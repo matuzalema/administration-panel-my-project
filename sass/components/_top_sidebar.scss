@@ -1,8 +1,9 @@
 .c--top-sidebar {
-	background-color: black;
+	background-color: $bg-color;
 	max-width: 184px;
-	height: 65px;
+	height: 60px;
 	padding: 18px;
+	text-align: center;
 }
 
 .logo {
@@ -12,4 +13,7 @@
 
 .hamburger-icon {
 	margin-left: 40px;
-	}
+}
+
+
+
